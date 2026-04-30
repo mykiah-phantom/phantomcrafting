@@ -220,6 +220,7 @@ public class Items {
 	public static Item prismarine_shard;
 	public static Item prismarine_crystals;
 	public static Item banner;
+	public static Item lava_ball;
 
 	private static Item getRegisteredItem(String name) {
 		return (Item) Item.itemRegistry.getObject(new ResourceLocation(name));
@@ -307,6 +308,7 @@ public class Items {
 			water_bucket = getRegisteredItem("water_bucket");
 			lava_bucket = getRegisteredItem("lava_bucket");
 			minecart = getRegisteredItem("minecart");
+			lava_ball = getRegisteredItem("lava_ball");
 			saddle = getRegisteredItem("saddle");
 			iron_door = getRegisteredItem("iron_door");
 			redstone = getRegisteredItem("redstone");
