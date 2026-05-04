@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('background.png') center/cover no-repeat fixed;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+}
+
+.hero {
+    text-align: center;
+    padding-top: 120px;
+    backdrop-filter: blur(4px);
+}
+
+h1 {
+    font-size: 64px;
+    text-shadow: 0 0 20px rgba(0,0,0,0.7);
+}
+
+.tagline {
+    font-size: 20px;
+    margin-bottom: 40px;
+    opacity: 0.9;
+}
+
+.buttons .btn {
+    display: inline-block;
+    padding: 14px 28px;
+    margin: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+.btn.discord {
+    background: #5865F2;
+    color: white;
+}
+
+.btn.play {
+    background: #00e676;
+    color: black;
+}
+
+.btn:hover {
+    transform: scale(1.08);
+    filter: brightness(1.1);
+}

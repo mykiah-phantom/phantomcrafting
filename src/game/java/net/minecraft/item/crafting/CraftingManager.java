@@ -374,6 +374,8 @@ public class CraftingManager {
 						new ItemStack(Blocks.stone_slab, 1, BlockStoneSlab.EnumType.STONE.getMetadata()) });
 		this.addRecipe(new ItemStack(Items.lava_ball, 1), new Object[] { "M M", "MMM", " M ", Character.valueOf('M'),
 				Blocks.netherrack });
+		this.addRecipe(new ItemStack(Items.lava_bucket, 1), new Object[] { "   ", " L ", "   ", Character.valueOf('L'),
+				Items.lava_ball });
 		Collections.sort(this.recipes, new Comparator<IRecipe>() {
 			public int compare(IRecipe parIRecipe, IRecipe parIRecipe2) {
 				return parIRecipe instanceof ShapelessRecipes && parIRecipe2 instanceof ShapedRecipes ? 1
